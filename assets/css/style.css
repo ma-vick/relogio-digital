@@ -48,6 +48,7 @@ body {
 }
 
 .day {
+    background-color: #D96C6C;
     font-weight: normal;
     font-size: .8em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.300);
@@ -68,4 +69,19 @@ body {
     border-radius: 10px;
     font-size: .8em;
     color: rgb(223, 223, 223);
+}
+
+@media (max-width: 480px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 12px;
+        width: 250px;
+        height: auto;
+    }
+
+    .block {
+        width: 200px;
+    }
 }
